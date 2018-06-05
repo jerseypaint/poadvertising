@@ -36,6 +36,7 @@ h1,h2,h3,h4, .navbar-brand a, .navbar-menu a{
 .navbar a:hover, .navbar-menu a:hover{
     background:#00133f;
     color:#fff;
+    transition: background-color 0.3s ease;
 }
 
 /* ##### Home Page #### */
@@ -97,14 +98,23 @@ background:#eceff1;
 
 /* #### Contact #### */
 #contact, footer{
-    background:#31353a;
+    background:#131313;
     color:#fff;
 }
 
 #contact h2, #contact label, footer a{
-    background:#31353a;
+    background:#131313;
     color:#fff;
 }
 .contact-form{
     max-width:500px;
 }
+
+.button.is-link{
+   background: #007250;
+}
+
+.button.is-link:hover{
+    background: #328e72;
+    transition: background-color 0.3s ease;
+ }
