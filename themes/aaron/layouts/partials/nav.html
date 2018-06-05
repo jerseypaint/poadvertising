@@ -1,0 +1,32 @@
+<nav class="navbar is-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a href="{{ .Site.BaseURL }}" class="navbar-item">
+        {{ .Site.Title }}
+      </a>
+      <div class="navbar-burger burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    </div>
+      <div class="navbar-menu" id="navMenu">
+        {{ if .Site.Menus.main }}
+          <div class="navbar-end">
+              <a class="navbar-item" href="/" title="home">
+                  Home
+                </a>
+            {{ range .Site.Menus.main }}
+              <a class="navbar-item" href="{{ .URL }}" title="{{ .Name }} page">
+                {{ .Name }}
+              </a>
+            {{ end }}
+            <a class="navbar-item" href="#contact" title="contact page">
+                Contact
+              </a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    </nav>
+  

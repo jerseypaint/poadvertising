@@ -1,0 +1,11 @@
+{{ define "main" }}
+    {{ .Content }}
+    <div class="columns">
+        {{ range .Paginator.Pages }}
+            <div class="column is-half">
+                 {{ .Params.featured_image }}
+                 {{ .Params.location }}
+             </div>
+        {{ end }}
+    </div>
+{{ end }}

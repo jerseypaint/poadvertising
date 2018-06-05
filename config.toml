@@ -1,0 +1,31 @@
+baseURL = "http://poadvertising.com/"
+languageCode = "en-us"
+title = "Pacific Outdoor Advertising"
+theme = "aaron" 
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 20
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/GoHugoIO"
+  instagram = ""
+  youtube = ""
+  github = ""
+  linkedin = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = ""
+  recent_posts_number = 2
+  custom_css = ["css/custom.css"]
