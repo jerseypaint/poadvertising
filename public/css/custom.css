@@ -1,0 +1,110 @@
+/* ##### Typography #### */
+h1,h2,h3,h4, .navbar-brand a, .navbar-menu a{
+    font-family: sofia-pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+ }
+ h1 {
+     font-size:2rem;
+ }
+ h2 {
+     font-size:1.5rem;
+ }
+
+ h3 {
+     font-size:1rem;
+ }
+ p {
+     margin-bottom:5px;
+ }
+
+ /* #### General #### */
+.container{
+    max-width:1000px;
+}
+
+ /* ##### Navigation #### */
+ .navbar, .navbar-menu{
+    background-color:#000b25;
+    color:#fff;
+}
+
+.navbar a, .navbar-menu a{
+    color:#fff;
+}
+
+.navbar a:hover, .navbar-menu a:hover{
+    background:#00133f;
+    color:#fff;
+}
+
+/* ##### Home Page #### */
+.hero-home{
+background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ),
+  url(/img/pexels-photo-185662.jpeg);
+background-position:center;
+color:#fff;
+}
+.hero-home h1, .hero-home h2, .hero-home .title, .hero-home .subtitle{
+color:#fff;
+}
+.features .column{
+text-align:center;
+}
+.home-icon-wrapper {
+    text-align: center;
+    padding-bottom:25px;
+}
+.home-icon{
+    color:#000b25;
+}
+.hero-page{
+    background: linear-gradient(
+        rgba(0, 33, 113, 0.8), 
+        rgba(0, 33, 113, 0.8)
+      ),
+      url(/img/structure-light-led-movement-158826.jpeg);
+    background-position:center;
+    color:#fff;
+    }
+.hero-page .title{
+    color:#fff;
+}
+
+.about {
+    background-color:#eceff1;
+}
+
+/* #### About #### */
+.joe {
+    max-height:800px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+/* #### Billboards #### */
+
+.billboard:nth-child(odd) {
+background:#eceff1;
+}
+
+.billboard img, .about img {
+    border-radius: 3%;
+}
+
+/* #### Contact #### */
+#contact, footer{
+    background:#31353a;
+    color:#fff;
+}
+
+#contact h2, #contact label, footer a{
+    background:#31353a;
+    color:#fff;
+}
+.contact-form{
+    max-width:500px;
+}
