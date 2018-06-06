@@ -6,7 +6,7 @@ theme = "aaron"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 20
+Paginate = 25
 googleAnalytics = ""
 enableRobotsTXT = true
 

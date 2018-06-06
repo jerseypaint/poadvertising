@@ -30,5 +30,11 @@ if ($navbarBurgers.length > 0) {
 });
 </script>
 <script>
+$('a.mail').on('click', function(){
+    var href = $(this).attr('href');
+    $(this).attr('href', href.replace('badmail.', ''));
+});
+ </script>
+<script>
     var scroll = new SmoothScroll('a[href*="#"]');
   </script>
