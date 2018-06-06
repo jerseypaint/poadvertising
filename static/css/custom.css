@@ -135,11 +135,13 @@ main{
 }
 footer{
     position:relative;
+    height:200px;
     z-index:-2;
 }
 
 footer .container{
     position:fixed;
+    height:125px;
     left:0;
     right:0;
     bottom:0;
