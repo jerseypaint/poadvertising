@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="hero is-medium hero-page">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+                {{ .Title }}
+            </h1>
+          </div>
+        </div>
+</section>
+
+         
+         <div class="section billboard-2">
+                <div class="container">
+                    <div class="columns is-multiline">
+                            {{ range .Paginator.Pages }}
+                        <div class="column is-half">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="{{ .Params.featured_image }}" alt="Placeholder image">
+                                            </figure>
+                                    </div>
+                                    <div class="card-content">
+                                            <div class="media">
+                                              <div class="media-content">
+                                                <p class="title is-4">Unit No: {{ .Title }}</p>
+                                                <p class="subtitle is-6">State: {{ .Params.state }}</p>
+                                              </div>
+                                            </div>
+                                    
+                                        <div class="content">
+                                                <p><span style="font-weight:bold">Location:</span> {{ .Params.location }}</p>
+                                                <p><span style="font-weight:bold">Description:</span> {{ .Description }}</p>
+                                          <br>
+                                        </div>
+                                      </div>
+                                </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>            
+        
+{{ end }}
+
+
