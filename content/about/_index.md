@@ -2,5 +2,5 @@
 title: "About"
 type: "page"
 layout: "about-2"
-draft: true
+draft: false
 ---
