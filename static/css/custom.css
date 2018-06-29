@@ -45,6 +45,20 @@ h1,h2,h3,h4{
     transition: background-color 0.3s ease;
 }
 
+.call-box {
+    display:flex;
+}
+
+.call-number {
+padding:0;
+}
+
+@media (max-width: 992px){
+    .navbar-item {
+        padding: 1rem .75rem;
+    }
+    }
+
 /* ##### Home Page #### */
 .hero-home{
 background: linear-gradient(
