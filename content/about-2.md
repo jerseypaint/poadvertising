@@ -1,5 +1,5 @@
 ---
-title: "About-2"
+title: "About"
 type: "page"
 layout: "about-2"
 draft: false
