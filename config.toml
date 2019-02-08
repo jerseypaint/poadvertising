@@ -1,4 +1,4 @@
-baseURL = "http://poadvertising.com/"
+baseURL = "https://poadvertising.com/"
 languageCode = "en-us"
 title = "Pacific Outdoor Advertising"
 theme = "aaron" 
